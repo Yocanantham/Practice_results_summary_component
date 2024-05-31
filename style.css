@@ -21,7 +21,8 @@ body {
     border-radius: 35px;
     box-shadow: 5px 5px 15px hsla(221, 75%, 89%, 0.637) ;
     flex-wrap: wrap;
-    align-content: space-around;
+    align-content: center;
+    justify-content: center;
 }
 
 /* span {
