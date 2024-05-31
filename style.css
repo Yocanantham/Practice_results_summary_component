@@ -8,7 +8,7 @@
 }
 
 body {
-    width: 100vw;
+    margin-top: 55px;
     min-height: 100vh;
     background-color: white;
     font-family: "Hanken Grotesk", sans-serif;
@@ -23,6 +23,9 @@ body {
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+}
+.main:hover {
+    box-shadow: 35px 35px 55px hsla(221, 75%, 89%, 0.783) ;
 }
 
 /* span {
@@ -100,7 +103,7 @@ h3 {
     padding: 1rem 0rem;
 }
 
-/* * Main Styling */
+/* -> Main Styling */
 .summary {
     min-width: 375px;
     max-width: 720px;
@@ -184,4 +187,20 @@ input {
 }
 input:hover, input:focus {
     background:linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%)); 
+}
+
+/* -> header */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem 0rem;
+    background: linear-gradient(lightgrey
+    , white);
+    color: black;
+}
+.header a {
+    text-decoration: none;
+    color:black;
 }
