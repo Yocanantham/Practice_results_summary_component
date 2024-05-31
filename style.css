@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+    font-family: "Hanken Grotesk", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    display: flex;
+    border-radius: 35px;
+    box-shadow: 5px 5px 15px hsla(221, 75%, 89%, 0.637) ;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+/* span {
+    display: block;
+} */
+
+/* ? Results section styles */
+
+/* Results background */
+.results {
+    border-radius: 35px;
+    padding: 1rem;
+    min-width: 375px;
+    max-width: 720px;
+    background:linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+}
+/* Results heading */
+.results_heading {
+    font-size: xx-large;
+    color: lightgrey;
+}
+/* Results circle */
+.circle {
+    width: 9.5rem;
+    height: 9.5rem;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0rem;
+}
+.acquired_total_marks {
+    display: block;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 3.5rem;
+}
+.results p {
+    text-align: center;
+    color: hsla(0, 0%, 62%, 0.826);
+    font-weight: 700;
+}
+/* Great Content */
+h3 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    margin: 1rem 0rem;
+}
+
+/* ? Summary section styles */
+
+/* Styling the marks */
+.acquired {
+    color: black;
+    font-weight: 800;
+}
+.total {
+    color: grey;
+}
+
+
+/* Summary */
+.summary h4 {
+    font-size: xx-large;
+    align-self: flex-start;
+    padding: 1rem 0rem;
+}
+
+/* * Main Styling */
+.summary {
+    min-width: 375px;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+    border-radius: 35px;
+    padding: 1rem;
+    gap: 1rem;
+    flex-basis: 50%;
+}
+
+/* Styling the marks and images classes */
+.images {
+    width: 35%;
+    display: flex;
+}
+.marks {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+/* Styling individual categories */
+.summary_content {
+   font-weight: 800;
+   font-size: larger;
+   margin-left: 15px;
+}
+.reaction {
+    min-width: 100%;
+    color: hsl(0, 100%, 67%);
+    background-color: hsl(0, 100%, 67%, 0.155);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.5rem;
+}
+.memory {
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.155);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.5rem;
+}
+.verbal {
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.155);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.5rem;
+}
+.visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.155);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.5rem;
+}
+
+/* Styling the button */
+.button {
+    width: 100%;
+    padding: 1rem;
+}
+input {
+    width: 100%;
+    background-color: hsl(224, 30%, 27%);
+    padding: 1rem;
+    border-radius: 85px;
+    border: 0px;
+    color: white;
+    font-size: larger;
+}
+input:hover, input:focus {
+    background:linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%)); 
+}
